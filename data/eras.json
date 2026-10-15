@@ -1,0 +1,170 @@
+[
+  {
+    "id": "early-bronze-near-east",
+    "label": "Early Bronze Age Near East",
+    "startYear": -3000,
+    "endYear": -1200,
+    "regions": ["middle-east", "egypt", "africa"]
+  },
+  {
+    "id": "new-kingdom-egypt",
+    "label": "New Kingdom Egypt",
+    "startYear": -1550,
+    "endYear": -1070,
+    "regions": ["egypt", "africa"]
+  },
+  {
+    "id": "iron-age-mediterranean",
+    "label": "Iron Age Mediterranean",
+    "startYear": -1200,
+    "endYear": -500,
+    "regions": ["europe", "middle-east"]
+  },
+  {
+    "id": "classical-greece",
+    "label": "Classical Greece",
+    "startYear": -480,
+    "endYear": -323,
+    "regions": ["europe"]
+  },
+  {
+    "id": "warring-states",
+    "label": "Warring States",
+    "startYear": -475,
+    "endYear": -221,
+    "regions": ["china", "asia"]
+  },
+  {
+    "id": "maurya-india",
+    "label": "Maurya period",
+    "startYear": -322,
+    "endYear": -185,
+    "regions": ["india", "asia"]
+  },
+  {
+    "id": "roman-imperial",
+    "label": "Roman Empire",
+    "startYear": -27,
+    "endYear": 476,
+    "regions": ["europe", "middle-east", "africa"]
+  },
+  {
+    "id": "late-antiquity",
+    "label": "Late antiquity",
+    "startYear": 284,
+    "endYear": 632,
+    "regions": ["europe", "middle-east"]
+  },
+  {
+    "id": "early-islamic",
+    "label": "Early Islamic world",
+    "startYear": 622,
+    "endYear": 945,
+    "regions": ["middle-east", "africa", "asia"]
+  },
+  {
+    "id": "tang-song",
+    "label": "Tang–Song China",
+    "startYear": 618,
+    "endYear": 1279,
+    "regions": ["china", "asia"]
+  },
+  {
+    "id": "heian-japan",
+    "label": "Heian Japan",
+    "startYear": 794,
+    "endYear": 1185,
+    "regions": ["japan", "asia"]
+  },
+  {
+    "id": "high-middle-ages",
+    "label": "High Middle Ages",
+    "startYear": 1000,
+    "endYear": 1300,
+    "regions": ["europe"]
+  },
+  {
+    "id": "mongol-world",
+    "label": "Mongol world",
+    "startYear": 1206,
+    "endYear": 1368,
+    "regions": ["asia", "europe", "middle-east", "china"]
+  },
+  {
+    "id": "age-of-exploration",
+    "label": "Age of Exploration",
+    "startYear": 1415,
+    "endYear": 1700,
+    "regions": ["europe", "americas", "africa", "asia", "oceania"]
+  },
+  {
+    "id": "renaissance",
+    "label": "Renaissance",
+    "startYear": 1400,
+    "endYear": 1600,
+    "regions": ["europe"]
+  },
+  {
+    "id": "tokugawa",
+    "label": "Tokugawa Japan",
+    "startYear": 1603,
+    "endYear": 1868,
+    "regions": ["japan", "asia"]
+  },
+  {
+    "id": "qing-china",
+    "label": "Qing dynasty",
+    "startYear": 1644,
+    "endYear": 1912,
+    "regions": ["china", "asia"]
+  },
+  {
+    "id": "age-of-revolutions",
+    "label": "Age of Revolutions",
+    "startYear": 1775,
+    "endYear": 1848,
+    "regions": ["europe", "americas", "france", "united-states"]
+  },
+  {
+    "id": "industrial-revolution",
+    "label": "Industrial Revolution",
+    "startYear": 1760,
+    "endYear": 1914,
+    "regions": ["europe", "united-kingdom", "world"]
+  },
+  {
+    "id": "ottoman-late",
+    "label": "Late Ottoman era",
+    "startYear": 1700,
+    "endYear": 1922,
+    "regions": ["ottoman-empire", "middle-east"]
+  },
+  {
+    "id": "world-wars",
+    "label": "The world wars",
+    "startYear": 1914,
+    "endYear": 1945,
+    "regions": ["world", "europe", "asia", "americas"]
+  },
+  {
+    "id": "decolonization",
+    "label": "Decolonization",
+    "startYear": 1945,
+    "endYear": 1975,
+    "regions": ["africa", "asia", "world"]
+  },
+  {
+    "id": "cold-war",
+    "label": "Cold War",
+    "startYear": 1947,
+    "endYear": 1991,
+    "regions": ["world", "europe", "asia", "americas"]
+  },
+  {
+    "id": "contemporary",
+    "label": "Contemporary period",
+    "startYear": 1991,
+    "endYear": 2026,
+    "regions": ["world"]
+  }
+]

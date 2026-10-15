@@ -1,0 +1,29 @@
+{
+  "regions": [
+    { "slug": "world", "label": "World / Global" },
+    { "slug": "europe", "label": "Europe" },
+    { "slug": "asia", "label": "Asia" },
+    { "slug": "africa", "label": "Africa" },
+    { "slug": "middle-east", "label": "Middle East" },
+    { "slug": "americas", "label": "Americas" },
+    { "slug": "oceania", "label": "Oceania" },
+    { "slug": "china", "label": "China" },
+    { "slug": "india", "label": "India" },
+    { "slug": "united-kingdom", "label": "United Kingdom" },
+    { "slug": "france", "label": "France" },
+    { "slug": "united-states", "label": "United States" },
+    { "slug": "japan", "label": "Japan" },
+    { "slug": "egypt", "label": "Egypt" },
+    { "slug": "ottoman-empire", "label": "Ottoman Empire" }
+  ],
+  "subjects": [
+    { "slug": "war-conflict", "label": "War & conflict" },
+    { "slug": "politics-empire", "label": "Politics & empire" },
+    { "slug": "science-technology", "label": "Science & technology" },
+    { "slug": "arts-culture", "label": "Arts & culture" },
+    { "slug": "philosophy-religion", "label": "Philosophy & religion" },
+    { "slug": "exploration", "label": "Exploration" },
+    { "slug": "economy-trade", "label": "Economy & trade" },
+    { "slug": "everyday-life", "label": "Everyday life" }
+  ]
+}

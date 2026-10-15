@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>History Timeline</title>
+    <meta
+      name="description"
+      content="A vertical, continuously zoomable editorial timeline of world history — pan and zoom from antiquity to the present, filtered by region and subject."
+    />
+    <meta name="color-scheme" content="light dark" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="History Timeline" />
+    <meta
+      property="og:description"
+      content="A vertical, continuously zoomable editorial timeline of world history — pan and zoom from antiquity to the present, filtered by region and subject."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="History Timeline" />
+    <meta
+      name="twitter:description"
+      content="A vertical, continuously zoomable editorial timeline of world history."
+    />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('theme')
+          var pref = t === 'light' || t === 'dark' || t === 'system' ? t : 'system'
+          var mode =
+            pref === 'system'
+              ? window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light'
+              : pref
+          document.documentElement.setAttribute('data-theme', mode)
+          document.documentElement.setAttribute('data-theme-pref', pref)
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'dark')
+          document.documentElement.setAttribute('data-theme-pref', 'system')
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

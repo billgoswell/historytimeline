@@ -1,0 +1,39 @@
+{
+  "name": "historywebsite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx scripts/build-data.ts && vite --host",
+    "dev:e2e": "tsx scripts/build-data.ts && tsx scripts/gen-synthetic.ts && vite --host 127.0.0.1 --port 5173 --strictPort",
+    "build:data": "tsx scripts/build-data.ts",
+    "gen:synthetic": "tsx scripts/gen-synthetic.ts",
+    "build": "tsx scripts/build-data.ts && tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "test:all": "vitest run && playwright test"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "jsdom": "^26.1.0",
+    "oxlint": "^1.81.0",
+    "tsx": "^4.23.13",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^3.2.4",
+    "zod": "^4.6.5"
+  }
+}
